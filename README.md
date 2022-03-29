@@ -8,7 +8,10 @@ This exhausts the servers thread pool and the server can't reply to other people
 
 ### INSTALLATION 
  • git clone https://github.com/Shikharsinghhhh/Shikharsinghhhh
+
  • cd Shikharsinghhhh
+
+
  • python shikharsingh.py
 <!--
 **Shikharsinghhhh/Shikharsinghhhh** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
