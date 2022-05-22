@@ -3,8 +3,8 @@
 </p>
 
 ##
-<h3>Shikharsingh</h3>
-Shikharsingh is basically an HTTP Denial of Service attack that affects threaded servers. It works like this:
+<h3>Blackbird</h3>
+Blackbird is basically an HTTP Denial of Service attack that affects threaded servers. It works like this:
 
 We start making lots of HTTP requests.
 1. We send headers periodically (every ~15 seconds) to keep the connections open.
@@ -14,14 +14,14 @@ We start making lots of HTTP requests.
 ### Installation 
 - Just, Clone this repository -
 ```
-$ git clone https://github.com/Dankshiku/Shikharsingh
+$ git clone https://github.com/Dankshiku/Blackbird
 ```
 
-- Change to cloned directory and run `python shikharsingh.py` 
+- Change to cloned directory and run `python Blackbird.py` 
 ```
-$ cd Shikharsingh
+$ cd Blackbird
 $ bash install.sh
-$ python shikharsingh.py
+$ python Blackbird.py
 ```
 ### Screenshot
 
