@@ -5,13 +5,14 @@ import random
 import socket
 import getpass
 os.system("clear")
-print(" \x1b[1;92m " )
+
 time.sleep(1)
 print (" ")
 print( " ")
 print( " ")
 os.system("clear")
-print(" \x1b[1;92m " )
+
+
 os.system(" figlet -c -f slant Blackbird")
 print ("                                                                  by DankShiku")
 print(" ")
