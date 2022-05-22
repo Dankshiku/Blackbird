@@ -26,7 +26,7 @@ $ python Blackbird.py
 ### Screenshot
 
 <p>
-  <img src="./Images/1.png">
+  <img src="./images/1.png">
 </p>
 
 ### Find Me on :
