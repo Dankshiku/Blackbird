@@ -14,6 +14,7 @@ pkg update
 pkg upgrade -y
 pkg install python -y
 pkg install figlet
+pip install --upgrade pip
 pip install lolcat
 clear
 echo -e $'\e[1;91m\e[0m\e[1;33m\e[0m\e[1;96m\e[0m\e[1;92m  ---------------------------------   \e[1;91m\e[0m'
