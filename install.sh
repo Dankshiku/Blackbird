@@ -5,11 +5,16 @@
 ##   Version 	   : 	1.0
 ##   Github 	   : 	https://github.com/Dankshiku
 clear
-sleep 2
+sleep 1
 echo -e $'\e[1;91m\e[0m\e[1;91m\e[0m\e[1;96m\e[0m\e[1;91m   ----------------------------------------  \e[1;91m\e[0m'
 echo -e $'\e[1;96m\e[0m\e[1;77m\e[0m\e[1;96m\e[0m\e[1;91m  !!         DOWNLOAD REQUIREMENTS         !!\e[0m'
 echo -e $'\e[1;91m\e[0m\e[1;91m\e[0m\e[1;96m\e[0m\e[1;91m   ----------------------------------------- \e[1;91m\e[0m'
 echo ""
+pkg update
+pkg upgrade -y
+pkg install pip -y
+pip install -- upgrade pip
+pip install lolcat
 pkg install python -y
 pkg install figlet
 clear
