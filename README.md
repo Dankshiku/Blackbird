@@ -3,7 +3,7 @@
 </p>
 
 ##
-<h3><p align="center">Disclaimer</p></h3>
+<h3><p align="center">Shikharsingh</p></h3>
 Shikharsingh is basically an HTTP Denial of Service attack that affects threaded servers. It works like this:
 
 We start making lots of HTTP requests.
