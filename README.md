@@ -1,4 +1,6 @@
-![](Image/icon.jpg)
+<p align="center">
+  <img src=".Images/logo.png">
+</p>
 ###                      Shikharsingh
 Shikharsingh is basically an HTTP Denial of Service attack that affects threaded servers. It works like this:
 
