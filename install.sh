@@ -13,6 +13,8 @@ echo ""
 pkg update
 pkg upgrade -y
 pkg install python -y
+pkg install ruby -y
+pkg install gem -y
 pkg install figlet
 pip install --upgrade pip
 pip install lolcat
