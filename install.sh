@@ -12,11 +12,9 @@ echo -e $'\e[1;91m\e[0m\e[1;91m\e[0m\e[1;96m\e[0m\e[1;91m   --------------------
 echo ""
 pkg update
 pkg upgrade -y
-pkg install pip -y
-pip install -- upgrade pip
-pip install lolcat
 pkg install python -y
 pkg install figlet
+pip install lolcat
 clear
 echo -e $'\e[1;91m\e[0m\e[1;33m\e[0m\e[1;96m\e[0m\e[1;92m  ---------------------------------   \e[1;91m\e[0m'
 echo -e $'\e[1;91m\e[0m\e[1;33m\e[0m\e[1;90m\e[0m\e[1;92m !!    Installation Successfull   !!  \e[1;91m\e[0m'
