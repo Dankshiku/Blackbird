@@ -7,7 +7,6 @@ import getpass
 os.system("clear")
 print(" \x1b[1;92m " )
 time.sleep(1)
-os.system("pkg install figlet")
 print (" ")
 print( " ")
 print( " ")
