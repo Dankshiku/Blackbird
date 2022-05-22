@@ -23,6 +23,11 @@ $ cd Shikharsingh
 $ bash install.sh
 $ python shikharsingh.py
 ```
+### Screenshot
+
+<p>
+  <img src="./Images/1.png">
+</p>
 
 ### Find Me on :
 <p align="left">
