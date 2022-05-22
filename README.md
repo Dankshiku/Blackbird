@@ -1,4 +1,4 @@
-### 𝐒𝐡𝐢𝐤𝐡𝐚𝐫𝐬𝐢𝐧𝐠𝐡
+###                      Shikharsingh
 Shikharsingh is basically an HTTP Denial of Service attack that affects threaded servers. It works like this:
 
 We start making lots of HTTP requests.
