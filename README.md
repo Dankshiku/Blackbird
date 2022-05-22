@@ -3,21 +3,26 @@
 </p>
 
 ##
-<h3><p align="center">Shikharsingh</p></h3>
+<h3>Shikharsingh</h3>
 Shikharsingh is basically an HTTP Denial of Service attack that affects threaded servers. It works like this:
 
 We start making lots of HTTP requests.
-We send headers periodically (every ~15 seconds) to keep the connections open.
-We never close the connection unless the server does so. If the server closes a connection, we create a new one keep doing the same thing.
-This exhausts the servers thread pool and the server can't reply to other people.
+1. We send headers periodically (every ~15 seconds) to keep the connections open.
+2. We never close the connection unless the server does so. If the server closes a connection, we create a new one keep doing the same thing.
+3. This exhausts the servers thread pool and the server can't reply to other people.
 
-### INSTALLATION 
- • git clone https://github.com/Dankshiku/Shikharsingh
+### Installation 
+- Just, Clone this repository -
+```
+$ git clone https://github.com/Dankshiku/Shikharsingh
+```
 
- • cd Shikharsinghhhh
-
-
- • python shikharsingh.py
+- Change to cloned directory and run `python shikharsingh.py` 
+```
+$ cd Shikharsingh
+$ bash install.sh
+$ python shikharsingh.py
+```
 <!--
 **Shikharsinghhhh/Shikharsinghhhh** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
