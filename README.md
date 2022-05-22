@@ -7,7 +7,7 @@ We never close the connection unless the server does so. If the server closes a 
 This exhausts the servers thread pool and the server can't reply to other people.
 
 ### INSTALLATION 
- • git clone https://github.com/Shikharsinghhhh/Shikharsinghhhh
+ • git clone https://github.com/Dankshiku/Shikharsingh
 
  • cd Shikharsinghhhh
 
